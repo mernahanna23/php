@@ -23,7 +23,7 @@
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
     
-    <input type="submit" value="Sign Up">
+    <input type="submit" name="key" value="Sign Up">
   </form>
 
 </body>
