@@ -42,8 +42,8 @@ if(filter_var($age, FILTER_VALIDATE_INT)!== false){
  echo $my_name2 ;
 echo '<br>';
 
-   session_start();
-    $_session['username']= $firstName.$lastName;
-    echo "Hi,  " .$_session['username'] ." ";
-    
+session_start();
+echo "Hi,  " .$_SESSION['username'] ." ";
+  
+  
 ?>
