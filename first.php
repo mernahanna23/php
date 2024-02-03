@@ -30,6 +30,10 @@
 </html>
 <?php
 
+session_start();
+if(isset($_post['key'])){
+$_SESSION['username']= $_post['firstname'].$_post['lastname'];
 
+}
 
 ?>
